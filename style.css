@@ -24,6 +24,9 @@ body {
 
 p {
     line-height: 1.4em;
+    text-align: justify;
+    font-size: 1.2em;
+
 }
 
 .header-content,
@@ -627,10 +630,10 @@ blockquote::after {
 /*----------------Footer/Contact----------------*/
 
 footer {
-    background-color: #5AA3C0;
+    background-color: #3f3f3f;
     color: #fff;
     font-size: 1.1em;
-    padding: 20px;
+    padding: 0px;
 }
 
 .footer-box {
@@ -737,6 +740,7 @@ input[type="submit"]:hover {
     }
     h1 {
         width: 100%;
+        
     }
     .header-title {
         flex: 60%;
@@ -762,6 +766,7 @@ input[type="submit"]:hover {
     }
     .header-subtitle {
         font-size: 2em;
+        
     }
     .features,
     .about,
@@ -795,7 +800,6 @@ input[type="submit"]:hover {
     }
     .about-box,
     .features-boxes,
-    .features-image--top,
     .blog,
     .news,
     .whoismozart,
@@ -804,6 +808,10 @@ input[type="submit"]:hover {
     .showcase-pink,
     .showcase-quote,
     .showcase-social {
+        flex: 50%;
+        height: auto;
+    }
+    .features-image--top {
         flex: 50%;
         height: auto;
     }
